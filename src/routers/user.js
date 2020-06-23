@@ -3,7 +3,6 @@ const router = new express.Router()
 const User = require('../models/user')
 const auth = require('../middleware/auth')
 const multer = require('multer')
-const { restart } = require('nodemon')
 const sharp = require('sharp')
 const { sendWelcomeEmail, sendCancelationEmail } = require('../emails/account')
 
